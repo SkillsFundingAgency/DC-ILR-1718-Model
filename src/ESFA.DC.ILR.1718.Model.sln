@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESFA.DC.ILR.Model.Interface", "ESFA.DC.ILR.Model.Interface\ESFA.DC.ILR.Model.Interface.csproj", "{2B9E211C-F0DF-46FF-B1C6-F29A50827276}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESFA.DC.ILR.Model", "ESFA.DC.ILR.Model\ESFA.DC.ILR.Model.csproj", "{869DCAA7-FBBB-49D0-9EFD-8FA234918B97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2B9E211C-F0DF-46FF-B1C6-F29A50827276}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B9E211C-F0DF-46FF-B1C6-F29A50827276}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B9E211C-F0DF-46FF-B1C6-F29A50827276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869DCAA7-FBBB-49D0-9EFD-8FA234918B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869DCAA7-FBBB-49D0-9EFD-8FA234918B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869DCAA7-FBBB-49D0-9EFD-8FA234918B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869DCAA7-FBBB-49D0-9EFD-8FA234918B97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
