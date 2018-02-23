@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ESFA.DC.ILR.Model.Interface, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ESFA.DC.ILR.1718.Model.Interface.0.1.0\lib\net461\ESFA.DC.ILR.Model.Interface.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -75,12 +78,7 @@
     <None Include="ILR-2017-18.xsd">
       <SubType>Designer</SubType>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ESFA.DC.ILR.Model.Interface\ESFA.DC.ILR.Model.Interface.csproj">
-      <Project>{2B9E211C-F0DF-46FF-B1C6-F29A50827276}</Project>
-      <Name>ESFA.DC.ILR.Model.Interface</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
